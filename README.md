@@ -30,7 +30,7 @@ It contains configuration to be build and programmed using [PlatformIO](https://
 
 ## Using the device with this circuit attached
 
-1. Build and upload the software using PlatformIO or your IDE of choice=
+1. Build and upload the software using PlatformIO or your IDE of choice
 2. Make sure that either the **serial programmer is disconnected or the DTR pin is low**
 3. Reset the ESP8266 device by either removing and restoring power or pulsing the reset pin
 4. The uploaded code should run
