@@ -28,6 +28,10 @@ This repository also contains a trivial WiFi access point and webserver as a "he
 
 It contains configuration to be build and programmed using [PlatformIO](https://platformio.org/) however `main.cpp` should work in the Arduino IDE with ESP8266 addons without major modifications.
 
+## Compatibility
+
+This works with [esptool](https://github.com/espressif/esptool) without any special commandline arguments or tweaks however `esptool` uses the `RTS` line to hard-reset the ESP8266 after it's finished which doesn't work because standard "FTDI" cables don't have that pin broken out.
+
 ## Using the device with this circuit attached
 
 1. Build and upload the software using PlatformIO or your IDE of choice
